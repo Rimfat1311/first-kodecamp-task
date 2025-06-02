@@ -43,7 +43,6 @@ toggleImg.addEventListener("click", () => {
 })
 
 const fetchCountry = async(event) => {
-	//old api that was changed - `https://restcountries.eu/rest/v2/all `;
 	const apiEndpoint = `https://restcountries.com/v3.1/all`
 	const countries = document.querySelector(".countries");
 
