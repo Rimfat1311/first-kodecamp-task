@@ -11,7 +11,7 @@ let countryArray = []; // an array to hold the names of the countries
 let borderArray = []; // an array to hold countries bordering a country
 
 
-const toggleImg = document.querySelector(".toggle-state-btn"); //Light and dark mode controll
+const toggleImg = document.querySelector(".toggle-state-btn"); //Light and dark mode controll is  here
 toggleImg.addEventListener("click", () => {
 	// const backBtn = document.querySelector(".back-btn");
 	const toggleMsg = document.querySelector(".toggle-state-btn span");
@@ -43,7 +43,7 @@ toggleImg.addEventListener("click", () => {
 })
 
 const fetchCountry = async(event) => {
-	const apiEndpoint = `https://restcountries.com/v3.1/all`
+	const apiEndpoint = `https://restcountries.com/v3.1/all` //
 	const countries = document.querySelector(".countries");
 
 	await fetch(apiEndpoint)
